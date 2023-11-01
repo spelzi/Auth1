@@ -1,0 +1,19 @@
+{
+  "name": "auth1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server"
+  },
+  "author": "Uzor Emmanuel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "generate-password": "^1.7.1",
+    "googleapis": "^128.0.0",
+    "nodemailer": "^6.9.7"
+  }
+}
